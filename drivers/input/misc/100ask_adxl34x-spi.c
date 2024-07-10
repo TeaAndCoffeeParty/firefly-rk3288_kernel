@@ -12,6 +12,7 @@
 #include <linux/pm.h>
 #include <linux/types.h>
 #include "adxl34x.h"
+#include <linux/interrupt.h>
 
 #define MAX_SPI_FREQ_HZ		5000000
 #define MAX_FREQ_NO_FIFODELAY	1500000
